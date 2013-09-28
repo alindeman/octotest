@@ -5,6 +5,24 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.0.1/d3.v3.min.js"></script>
+  <style>
+  svg {
+    padding: 20px;
+  }
+  rect {
+    fill: #2d578b
+  }
+  text {
+    fill: white;
+  }
+  text.yAxis {
+    font-size: 12px;
+    font-family: Helvetica, sans-serif;
+    fill: black;
+  }
+  </style>
 </head>
 <body>
 
